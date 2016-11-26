@@ -14,12 +14,12 @@ a {
 
 img { border: 0; border: none; max-width: 100%; height: auto; }
 
-h1 { font-size: $h1-font-size; line-height: 1.2; font-family: $font-primary;  margin-top: 0; }
-h2 { font-size: $h2-font-size; line-height: 1.2; font-family: $font-primary;  margin-top: 0; text-transform: uppercase; font-weight: 700; }
-h3 { font-size: $h3-font-size; line-height: 1.2; font-family: $font-primary;  margin-top: 0; }
-h4 { font-size: $h4-font-size; line-height: 1.2;  font-family: $font-primary; margin-top: 0; }
-h5 { font-size: $h5-font-size;  line-height: 1.2; font-family: $font-primary;  margin-top: 0; }
-h6 { font-size: $h6-font-size; line-height: 1.2; font-family: $font-primary; margin-top: 0; }
+h1 { font-size: $h1-font-size; line-height: 1.2; font-family: $font-titles;  margin-top: 0; }
+h2 { font-size: $h2-font-size; line-height: 1.2; font-family: $font-titles;  margin-top: 0; text-transform: uppercase; font-weight: 700; }
+h3 { font-size: $h3-font-size; line-height: 1.2; font-family: $font-titles;  margin-top: 0; }
+h4 { font-size: $h4-font-size; line-height: 1.2;  font-family: $font-titles; margin-top: 0; }
+h5 { font-size: $h5-font-size;  line-height: 1.2; font-family: $font-titles;  margin-top: 0; }
+h6 { font-size: $h6-font-size; line-height: 1.2; font-family: $font-titles; margin-top: 0; }
 
 
 a:focus {
