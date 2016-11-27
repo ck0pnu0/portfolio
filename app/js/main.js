@@ -11,7 +11,7 @@
 			anchors:['Personal Information', 'Education', 'Professional Experience', 'Skills'],
 			navigation: true,
 			navigationPosition: 'right',
-			navigationTooltips: ['Personal Information', 'Education', 'Professional Experience', 'Skills'],
+			navigationTooltips: ['Personal Information', 'Education', 'Skills', 'Professional Experience', 'Sample Projects'],
 			showActiveTooltip: false,
 			slidesNavigation: true,
 			slidesNavPosition: 'bottom',

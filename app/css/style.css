@@ -5050,6 +5050,12 @@ h6 {
   font-family: "Rajdhani", Arial, sans-serif;
   margin-top: 0; }
 
+strong {
+  font-weight: 700; }
+
+p {
+  padding: 10px 0; }
+
 a:focus {
   -webkit-outline-color: 0;
   -moz-outline-color: 0;

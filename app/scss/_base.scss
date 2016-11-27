@@ -21,6 +21,9 @@ h4 { font-size: $h4-font-size; line-height: 1.2;  font-family: $font-titles; mar
 h5 { font-size: $h5-font-size;  line-height: 1.2; font-family: $font-titles;  margin-top: 0; }
 h6 { font-size: $h6-font-size; line-height: 1.2; font-family: $font-titles; margin-top: 0; }
 
+strong { font-weight: 700; }
+
+p { padding: 10px 0; }
 
 a:focus {
 	& {
