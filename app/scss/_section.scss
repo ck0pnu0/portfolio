@@ -4,7 +4,21 @@
 
 .section {
 
+	@include clearfix;
+
+	& .row {
+		height: 400px;
+	}
+
+	& .col-md-6 {
+		display: table; height: 100%; 
+	}
+
+	& .section-inner {
+		display: table-cell; vertical-align: middle; 
+	}
+
 	& .fa {
-		font-size: 350px; line-height: 1; position: absolute; top: 50%; right: 100px; color: #444; z-index: 99; transform: translateY(-50%);
+		font-size: 300px; line-height: 1; display: block; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 	}
 }

@@ -2,3 +2,10 @@
 	Buttons
 \* ------------------------------------------------------------ */
 
+a.print-btn {
+	float: right; font-size: 30px; line-height: 1.2; width: 28px; height: 36px; margin-right: 20px;  
+
+	& .fa-print {
+		font-size: 30px; line-height: 1.2; 
+	}
+}

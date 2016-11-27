@@ -5074,6 +5074,17 @@ img {
 \* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ *	Buttons
 \* ------------------------------------------------------------ */
+a.print-btn {
+  float: right;
+  font-size: 30px;
+  line-height: 1.2;
+  width: 28px;
+  height: 36px;
+  margin-right: 20px; }
+  a.print-btn .fa-print {
+    font-size: 30px;
+    line-height: 1.2; }
+
 /* ------------------------------------------------------------ *	Form
 \* ------------------------------------------------------------ */
 ::-webkit-input-placeholder {
@@ -5092,18 +5103,44 @@ img {
 
 /* ------------------------------------------------------------ *	Sections
 \* ------------------------------------------------------------ */
+.section:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.section .row {
+  height: 400px; }
+
+.section .col-md-6 {
+  display: table;
+  height: 100%; }
+
+.section .section-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
 .section .fa {
-  font-size: 350px;
+  font-size: 300px;
   line-height: 1;
+  display: block;
+  text-align: center;
   position: absolute;
   top: 50%;
-  right: 100px;
-  color: #444;
-  z-index: 99;
-  transform: translateY(-50%); }
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
-/* ------------------------------------------------------------ *	Article
+/*@import 'article';*/
+/* ------------------------------------------------------------ *	Top bar
 \* ------------------------------------------------------------ */
+.top-bar {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 36px; }
+
 /* ------------------------------------------------------------ *	Navigaton
 \* ------------------------------------------------------------ */
 /*!
