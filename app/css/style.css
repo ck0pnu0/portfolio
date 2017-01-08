@@ -5135,6 +5135,22 @@ a.print-btn {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+.section.section-samples ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .section.section-samples ul li {
+    width: 49%; }
+    .section.section-samples ul li a {
+      border: 1px solid #ccc;
+      display: block;
+      margin-bottom: 2%;
+      transition: border 0.2s; }
+      .section.section-samples ul li a img {
+        display: block; }
+      .section.section-samples ul li a:hover {
+        border: 1px solid #000; }
+
 /*@import 'article';*/
 /* ------------------------------------------------------------ *	Top bar
 \* ------------------------------------------------------------ */
