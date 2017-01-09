@@ -5151,7 +5151,6 @@ a.print-btn {
       .section.section-samples ul li a:hover {
         border: 1px solid #000; }
 
-/*@import 'article';*/
 /* ------------------------------------------------------------ *	Top bar
 \* ------------------------------------------------------------ */
 .top-bar {
@@ -5165,6 +5164,31 @@ a.print-btn {
 
 /* ------------------------------------------------------------ *	Navigaton
 \* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ *	Print
+\* ------------------------------------------------------------ */
+@media print {
+  body {
+    overflow: auto; }
+  a[href]:after {
+    content: none !important; }
+  h2 {
+    font-size: 20pt; }
+  p {
+    font-size: 11pt;
+    color: #000; }
+  .top-bar {
+    display: none; }
+  .section {
+    height: auto !important;
+    padding: 30px !important; }
+    .section .col-md-6 {
+      display: inline;
+      height: auto; }
+    .section .fa {
+      font-size: 140pt;
+      position: relative;
+      margin-left: auto; } }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
