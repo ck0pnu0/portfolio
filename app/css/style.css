@@ -5151,7 +5151,7 @@ a.print-btn {
       .section.section-samples ul li a:hover {
         border: 1px solid #000; }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
   .col-md-6 + .col-md-6 {
     display: none; } }
 
