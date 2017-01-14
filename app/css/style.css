@@ -5054,7 +5054,7 @@ strong {
   font-weight: 700; }
 
 p {
-  padding: 10px 0; }
+  padding: 0 0 10px 0; }
 
 a:focus {
   -webkit-outline-color: 0;
@@ -5134,6 +5134,9 @@ a.print-btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.section .section-body {
+  padding-top: 10px; }
 
 .section.section-samples ul {
   display: flex;
@@ -5219,6 +5222,8 @@ a.print-btn {
     .section .row {
       height: auto !important; }
     .section:nth-child(odd) {
+      clear: both; }
+    .section.section-samples ul li:nth-child(odd) {
       clear: both; } }
 
 /*!

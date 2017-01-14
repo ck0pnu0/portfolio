@@ -23,7 +23,7 @@ h6 { font-size: $h6-font-size; line-height: 1.2; font-family: $font-titles; marg
 
 strong { font-weight: 700; }
 
-p { padding: 10px 0; }
+p { padding: 0 0 10px 0; }
 
 a:focus {
 	& {

@@ -73,5 +73,9 @@
 		&:nth-child(odd) {
 			clear: both;
 		}
+
+		&.section-samples ul li:nth-child(odd) {
+			clear: both;
+		}
 	}
 }
