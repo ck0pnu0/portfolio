@@ -5151,6 +5151,10 @@ a.print-btn {
       .section.section-samples ul li a:hover {
         border: 1px solid #000; }
 
+@media (max-width: 1199px) {
+  .col-md-6 + .col-md-6 {
+    display: none; } }
+
 /* ------------------------------------------------------------ *	Top bar
 \* ------------------------------------------------------------ */
 .top-bar {
@@ -5164,30 +5168,58 @@ a.print-btn {
 
 /* ------------------------------------------------------------ *	Navigaton
 \* ------------------------------------------------------------ */
+.fp-tooltip {
+  color: #505050 !important;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0 5px; }
+
 /* ------------------------------------------------------------ *	Print
 \* ------------------------------------------------------------ */
 @media print {
   body {
-    overflow: auto; }
+    overflow: auto !important;
+    background: #fff;
+    color: #000; }
   a[href]:after {
     content: none !important; }
+  a[href^="http://"]:after, a[href^="ftp://"]:after {
+    content: " (" attr(href) ")";
+    color: blue;
+    font-size: small; }
   h2 {
-    font-size: 20pt; }
+    font-size: 18pt; }
   p {
-    font-size: 11pt;
+    font-size: 12pt;
     color: #000; }
   .top-bar {
     display: none; }
+  .fp-tableCell {
+    width: 100%;
+    margin: 0 5%;
+    padding: 0;
+    height: auto !important;
+    float: none; }
+  .main {
+    height: auto !important;
+    transform: translate3d(0, 0, 0) !important;
+    position: static !important;
+    transition: 0; }
   .section {
     height: auto !important;
-    padding: 30px !important; }
-    .section .col-md-6 {
-      display: inline;
-      height: auto; }
+    padding: 20px 0 !important;
+    float: left;
+    display: inline;
+    width: 50% !important; }
     .section .fa {
-      font-size: 140pt;
-      position: relative;
-      margin-left: auto; } }
+      display: none; }
+    .section .section-inner {
+      display: inline;
+      vertical-align: top;
+      padding: 0; }
+    .section .row {
+      height: auto !important; }
+    .section:nth-child(odd) {
+      clear: both; } }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome

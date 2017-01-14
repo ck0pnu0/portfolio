@@ -44,3 +44,9 @@
 		}
 	}
 }
+
+@media (max-width: $screen-md-max) {
+	.col-md-6 + .col-md-6 {
+		display: none;
+	}
+}
