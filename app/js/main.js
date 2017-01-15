@@ -8,7 +8,7 @@
 			//Navigation
 			// menu: '.navigation',
 			lockAnchors: false,
-			anchors:['Personal Information', 'Education', 'Professional Experience', 'Skills'],
+			anchors:['Personal Information', 'Education', 'Skills', 'Professional Experience', 'Sample Projects'],
 			navigation: true,
 			navigationPosition: 'right',
 			navigationTooltips: ['Personal Information', 'Education', 'Skills', 'Professional Experience', 'Sample Projects'],
